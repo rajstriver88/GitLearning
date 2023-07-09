@@ -35,28 +35,9 @@ Check  status of file :
 
 \f0\b0 \cf0 Move from staging to remote repository : git commit -m \'93comments\'94\
 \
-Check git logs : 
-\f1\b git log\
+Check git logs : git log\
 \
-
-\f0\b0 Moving to a particular commit id : git checkout  \'93commitid\'94\
-\
-Another use of checkout  is we can move from one branch to another in git. \
-There is always a master branch and then  we create different branch from them . \
-\
-Create new branch : git branch 
-\f1\b \'93branch_name\'94\
-\
-
-\f0\b0 Move to particular branch : git checkout \'93branch_name\'94. Now make some changes from that file upload the changes to particular branch using add and commit commands.\
-\
-To merge branches means changes in one branch is merged to another branch.\
- 
-\f1\b  git checkout master 
-\f0\b0 \
-  
-\f1\b git merge dev
-\f0\b0 \
-\
- \
-}
+Get latest code from master : 
+\f1\b git checkout \'93dev\'94
+\f0\b0   and then 
+\f1\b git rebase master}
